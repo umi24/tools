@@ -1,0 +1,45 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">TodoList</h1>
+
+    <table id="hoge">
+      <thead>
+        <!-- インデックス番号=0 -->
+        <tr>
+          <th><button>＞</button></th>
+          <th>□</th>
+          <th>master</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- インデックス番号=1 -->
+        <tr id="hogehoge">
+          <td></td>
+          <td></td>
+          <td>
+            <input
+              type="button"
+              value="行を追加"
+              id="coladd"
+              onclick="coladd()"
+            />
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <!-- インデックス番号=2 -->
+        <!-- <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr> -->
+      </tfoot>
+    </table>
+  </body>
+  <script src="app.js"></script>
+</html>
