@@ -4,7 +4,7 @@ function coladd() {
 
   if (folderList) {
   // folderList(hogehoge)の中の末尾に挿入
-  var row = folderList.insertRow(0);
+  var row = folderList.insertRow(-1);
 
   //セルの追加
   var cell1 = row.insertCell(-1);
